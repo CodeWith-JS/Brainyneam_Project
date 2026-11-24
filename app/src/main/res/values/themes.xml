@@ -3,7 +3,101 @@
     <style name="Base.Theme.BrainyneamProject" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- APP BACKGROUND COLOR
+             color yaha se change hoga  -->
+        <item name="android:windowBackground">@color/app_background</item>
+        <!-- APP FONT:
+             common font yaha se  -->
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:colorBackground">@color/app_title</item>
     </style>
 
     <style name="Theme.BrainyneamProject" parent="Base.Theme.BrainyneamProject" />
+
+    <!-- ============================================================
+         COMMON STYLES (used by Login, Signup, Forget and future pages)
+         ============================================================ -->
+
+    <!-- Root layout of every app page -->
+    <style name="AppPage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Big heading  -->
+    <style name="AppTitle">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#2548B8</item>
+        <item name="android:layout_marginBottom">70dp</item>
+    </style>
+
+    <!-- Sub heading -->
+    <style name="AppSubtitle">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#111111</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">50dp</item>
+    </style>
+
+    <!-- input box -->
+    <style name="AppEditText">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:textColorHint">#999999</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:background">@drawable/custom_color</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- button -->
+    <style name="AppButton">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+
+    <!-- hyperlink -->
+    <style name="AppLink">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Link placed at the bottom of a page, below the button -->
+    <style name="AppLink.Footer">
+        <item name="android:layout_marginTop">25dp</item>
+    </style>
 </resources>
