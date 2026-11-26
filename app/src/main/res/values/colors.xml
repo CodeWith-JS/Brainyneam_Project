@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="app_background">#F5F9FF</color>
+    <color name="night_app_background">#181C1E</color>
+
+
+
+
     <color name="app_title">#2548B8</color>
+    <color name="app_button">#006A4E</color>
+    <color name="app_SVG_icon">#006A4E</color>
+
+
+    <color name="Color_Title">#2548B8</color>
+    <color name="Color_Night_Title">#8FA8FF</color>
+    <color name="Color_Links">#2548B8</color>
+    <color name="Color_Night_Links">#8FA8FF</color>
+    <color name="input_box_hint_color">#999999</color>
+    <color name="night_input_box_hint_color">#9AA5B4</color>
+
 </resources>

@@ -2,40 +2,31 @@
     <!-- Base application theme (night). -->
     <style name="Base.Theme.BrainyneamProject" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
 
-        <!-- APP BACKGROUND COLOR
-            color yaha se change hoga  -->
-        <item name="android:windowBackground">@color/app_background</item>
-        <!-- APP FONT:
-             common font yaha se  -->
-        <item name="android:fontFamily">sans-serif</item>
-        <item name="fontFamily">sans-serif</item>
-        <item name="android:colorBackground">@color/app_title</item>
+
+        <!-- APP BACKGROUND
+             yaha se change hoga  -->
+
+        <item name="android:windowBackground">@color/night_app_background</item>
+
+
     </style>
 
     <style name="Theme.BrainyneamProject" parent="Base.Theme.BrainyneamProject" />
 
-    <!-- ============================================================
-      NIGHT MODE KE OVERRIDES (common styles ke liye)
-      Yahan sirf wahi styles likhi hain jinke colors night mode
-      me badalne zaroori hain.
-      AppPage, AppButton, AppLink aur AppLink.Footer apne aap
-      values/themes.xml se aa jaate hain.
-      ============================================================ -->
 
-    <!-- Lighter blue so the heading is readable on a dark background -->
+
     <style name="AppTitle">
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">40sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#8FA8FF</item>
+        <item name="android:textColor">@color/Color_Night_Title</item>
         <item name="android:layout_marginBottom">70dp</item>
     </style>
 
-    <!-- Light text instead of black -->
+
     <style name="AppSubtitle">
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:layout_width">wrap_content</item>
@@ -47,8 +38,7 @@
         <item name="android:layout_marginBottom">50dp</item>
     </style>
 
-    <!-- Light typed text and hint, because the box becomes dark at night
-          -->
+
     <style name="AppEditText">
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:layout_width">350dp</item>
@@ -58,11 +48,22 @@
         <item name="android:layout_marginBottom">20dp</item>
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">#F2F2F2</item>
-        <item name="android:textColorHint">#9AA5B4</item>
+        <item name="android:textColorHint">@color/night_input_box_hint_color</item>
         <item name="android:padding">15dp</item>
         <item name="android:drawablePadding">12dp</item>
-        <item name="android:background">@drawable/custom_color</item>
+        <item name="android:background">@drawable/custom_inputBox_color</item>
         <item name="backgroundTint">@null</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <style name="AppLink">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/Color_Night_Links</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
 </resources>

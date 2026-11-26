@@ -9,9 +9,10 @@
     tools:context=".MainActivity">
 
     <TextView
+        style="@style/AppSubtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello user!"
+        android:text="Hello User"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
